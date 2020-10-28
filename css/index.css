@@ -1,0 +1,192 @@
+html {
+    font-size: 62.5% !important;    /* 取默认字体的百分比 */
+}
+@media (min-width: 992px){
+    html {
+        font-size: 62.5%;
+    }
+}
+@media (min-width: 768px){
+    html {
+        font-size: 59%;
+    }
+}
+@media (min-width: 576px){
+    html {
+        font-size: 56%
+    }
+}
+body{
+    overflow-x: hidden;
+}
+a:hover{
+    text-decoration: none;
+}
+.leftCon{
+    left: 0;
+}
+.leftCon a{
+    font-size: 1.6rem;
+}
+#showBtn{
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: #858585;
+}
+header{
+    height:80px;
+}
+.login{
+    height: calc(100vh - 80px);
+}
+.resign{
+    border-radius: 13px;
+}
+@media (max-width: 991.98px){
+    .leftCon{
+        position: relative!important;
+    }
+    .login{
+        height: auto;
+    }
+}
+.menu{
+    left: 0;
+    top: 0;
+    width:100%;
+    height: 100vh;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: .3s;
+    z-index: 2000;
+}
+.menu footer{
+    font-size: 1.4rem;
+}
+.menu footer,.menu footer a{
+    color: rgba(0,0,0,0.38);
+}
+.menu .list ul a{
+    font-size: 1.8rem;
+}
+.menu.hide{
+    opacity: 0;
+    transform: scale(2);
+    z-index: -1;
+}
+.menu.show{
+    opacity: 1;
+    transform: scale(1);
+}
+#lunbo a span{
+    font-size: 6rem;
+}
+.star button{
+    border-radius: 13px;
+}
+.star h2{
+	font-size: 2.2rem;
+}
+.star p{
+	font-size: 1.6rem;
+	line-height: 34px;
+}
+.star p span{
+    color: #C2A661;
+    cursor: pointer;
+}
+.better h3,.teach h3{
+	font-size: 2.2rem;
+}
+.better p,.teach p{
+	font-size: 1.6rem;
+}
+.better li{
+	margin-top: 56px;
+}
+.better li a{
+	transition: 0.2s;
+	box-shadow: 0 1px 1px 1px rgba(0,0,0,0.12);
+}
+.better li a:hover{
+    box-shadow: 0 0 4px 1px rgba(0,0,0,0.22);
+	transform: translateY(-5px);
+}
+.better li a img{
+	width: 40%;
+	margin-top: -28px;
+}
+.better li a h4{
+	font-size: 1.6rem;
+}
+.better li a p{
+	font-size: 1.4rem;
+}
+.better li a p.caption{
+    font-size: 1.2rem;
+	color: #C2A661;
+	opacity: 0.7;
+}
+.teach ul{
+	width: 1216px;
+}
+.teach li{
+	width: 288px;
+}
+.scroll ul{
+    position: relative;
+    left: 0;
+    transition: 0.5s;
+}
+.scroll li{
+    /* position: absolute; */
+	transition: 0.2s;
+	box-shadow: 0 1px 1px 1px rgba(0,0,0,0.12);
+}
+.scroll li span{
+	font-size: 1.4rem;
+	background: #C2A661;
+	left: 0;
+	top: 6px;
+}
+.scroll li:hover{
+	box-shadow: 0 0 1px 2px rgba(0,0,0,0.22);
+	transform: translateY(-5px);
+}
+.footerMenu ul{
+	box-shadow: 0 0 4px rgba(0,0,0,0.12);
+}
+.footerMenu a span.iconfont{
+	font-size: 2.5rem;
+}
+.footerMenu a.active{
+	color: #00A862!important;
+}
+#nextBtn,#prevBtn{
+    border-radius: 50%;
+    width: 28.8px;
+    height: 28.8px;
+    margin: 3px 0px;
+    display: inline-block;
+    color: black;
+    line-height: 28.8px;
+    transition: 0.2s;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.12);
+}
+#nextBtn:hover,#prevBtn:hover{
+    transform: translateY(-5px);transform: translateY(-5px);
+}
+#nextBtn{
+    top: 50%;
+    right: 30px;
+}
+#prevBtn{
+    top: 50%;
+    left: 30px;
+}
+.eleblcok{
+    display: block;
+}
+.elenone{
+    display: none!important;
+}
